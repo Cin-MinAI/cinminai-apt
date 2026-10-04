@@ -12,4 +12,4 @@ Cin-MinAI archive key, which ships in the `cinminai-archive-keyring` package:
 The key lives only on an offline stick, and every release is signed by hand (PLAN D72). The public key is
 also here: [`cinminai-archive-keyring.asc`](cinminai-archive-keyring.asc).
 
-Release: **0.0.1** (the first public alpha), with update 1 (2026-10-04) — suite `noble`, component `main`, amd64.
+Release: **0.0.1** (the first public alpha), with update 2 (2026-10-04: terminal help, M3) — suite `noble`, component `main`, amd64.
