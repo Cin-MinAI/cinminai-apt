@@ -1,0 +1,29 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Origin: Cin-MinAI
+Label: Cin-MinAI
+Codename: noble
+Date: Sun, 04 Oct 2026 05:54:17 UTC
+Architectures: amd64
+Components: main
+Description: Cin-MinAI packages (based on Linux Mint 22.3)
+MD5Sum:
+ 7569f02551c3197cfb18c8adfc24005e 10462 main/binary-amd64/Packages
+ 0b5169c45da585a264f600318f43b0cc 3907 main/binary-amd64/Packages.gz
+ 49d71cd6e76dd3e08bedfbb427a11baf 130 main/binary-amd64/Release
+SHA1:
+ 8652d5340bf1511c3b1ab07f65edfc4b7a381acd 10462 main/binary-amd64/Packages
+ 420dece038bc46ee568c579758def609bb6ffef3 3907 main/binary-amd64/Packages.gz
+ b83c8f54a05d097d1ac8395a29f2a0956174bd29 130 main/binary-amd64/Release
+SHA256:
+ b5a400de90b95568cc30f472fa8c880d8afe9bcc6ca4b4401c663af8c4929e71 10462 main/binary-amd64/Packages
+ 1973c872104a94827f8604e7f12b39ab2a679d801159a39009203127ade3f7d9 3907 main/binary-amd64/Packages.gz
+ 2d39b4789590b989e65d67a4122ee54381d16c5cba7e6a21f27dcdf383e1ef5e 130 main/binary-amd64/Release
+-----BEGIN PGP SIGNATURE-----
+
+iHUEARYKAB0WIQS+DBYZyOckGiz2r9oX1uCBMwDHVwUCasHqCgAKCRAX1uCBMwDH
+V6KyAP9rSzQOBuDPyOthkZD3mM4rIflANc/tuVbEgZB+V61TBAD7Bqe68dU6oXEr
+SShdDANoYIXPJLWmMf3B4tUp177spA8=
+=T3BF
+-----END PGP SIGNATURE-----

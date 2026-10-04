@@ -1,0 +1,5 @@
+Component: main
+Origin: Cin-MinAI
+Label: Cin-MinAI
+Architecture: amd64
+Description: Cin-MinAI packages (based on Linux Mint 22.3)

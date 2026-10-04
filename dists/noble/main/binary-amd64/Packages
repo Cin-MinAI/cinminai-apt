@@ -1,0 +1,221 @@
+Package: cinminai-aicui
+Version: 0.0.1+git20261004.055019
+Architecture: all
+Installed-Size: 89
+Maintainer: Cin-MinAI <https://github.com/Brickmii/Cin-MinAI>
+Depends: python3 (>= 3.12), python3-gi, gir1.2-gtk-3.0, gir1.2-vte-2.91, git, bubblewrap,
+ cinminai-daemon (>= 0.0.1)
+Priority: optional
+Section: devel
+Filename: pool/main/c/cinminai-aicui/cinminai-aicui_0.0.1+git20261004.055019_all.deb
+Size: 27696
+SHA256: 49f9e401674c528aa00cd046e9e005ded7d8d2634fdcf87fc5e3c46fcf9c9f26
+SHA1: adef5358c4dddb8689962a5d3f1fe05f53fc27fc
+MD5sum: d0120cea6712b7770483d891613090eb
+Description: AICUI, the Cin-MinAI coding workspace
+ A simple workspace for coding with AI: the chat history, the project's files,
+ the session goals and a real terminal where the coding agent works and asks
+ before it changes anything. Every change it makes is kept in a changelog with
+ undo. Runs on this computer's own model by default; cloud models can be
+ connected too. Open it from the Programming menu or the assistant's sidebar.
+
+Package: cinminai-applet
+Version: 0.0.1+git20261004.055019
+Architecture: all
+Installed-Size: 10
+Maintainer: Cin-MinAI <https://github.com/Brickmii/Cin-MinAI>
+Depends: cinnamon, python3, cinminai-sidebar (>= 0.0.1)
+Priority: optional
+Section: misc
+Filename: pool/main/c/cinminai-applet/cinminai-applet_0.0.1+git20261004.055019_all.deb
+Size: 4940
+SHA256: f5363fa93a8d5fafd8fdb2d9afd4138d1c2e81818debed27fc069c552cafc6c9
+SHA1: 28a4c9c5d1adacf58d2362b6ba1825c26dbfae85
+MD5sum: 176159b19ef5d1a77871f9f2a9f81844
+Description: Cin-MinAI assistant: panel icon and Super+A
+ The assistant's icon in the panel: it shows whether the assistant is ready,
+ answering or resting, and a click opens it. At first login it is added to the
+ panel and Super+A is set to open the assistant, once: if you remove the icon or
+ change the key, it stays the way you left it.
+
+Package: cinminai-archive-keyring
+Version: 0.0.1+git20261004.055019
+Architecture: all
+Installed-Size: 1
+Maintainer: Cin-MinAI <https://github.com/Brickmii/Cin-MinAI>
+Priority: optional
+Section: misc
+Filename: pool/main/c/cinminai-archive-keyring/cinminai-archive-keyring_0.0.1+git20261004.055019_all.deb
+Size: 1576
+SHA256: 2b2a3097d0633aa23f07ca1c4261a0e03e51294c3ac3695a6728201b6d00d90a
+SHA1: a142e53e44602c55c6d698cfb517ce46c9b7dbc2
+MD5sum: 11afd79058de34266f760d3dc8fda78b
+Description: Cin-MinAI archive key and apt source
+ The public key that signs the Cin-MinAI package repository, and the apt source
+ that lets this computer receive Cin-MinAI updates through Update Manager.
+
+Package: cinminai-branding
+Version: 0.0.1+git20261004.055019
+Architecture: all
+Installed-Size: 5168
+Maintainer: Cin-MinAI <https://github.com/Brickmii/Cin-MinAI>
+Depends: plymouth, python3
+Priority: optional
+Section: misc
+Filename: pool/main/c/cinminai-branding/cinminai-branding_0.0.1+git20261004.055019_all.deb
+Size: 4099504
+SHA256: d104b8bfb8569ee08927b2beb67f589d482fc485c644e68dddbdb8ed15e5b572
+SHA1: 7d1026e0ac1c919142d811c3c2a1b7d322c330a9
+MD5sum: b1034881e0ae74b234c60bdafb89e3f9
+Description: Cin-MinAI look: wallpapers, boot splash and theme defaults
+ Identifies this system as Cin-MinAI, based on Linux Mint: the wallpapers (data-stream
+ is the default), the boot splash, and Mint's own dark theme with the Aqua accent as
+ defaults. Adds files and defaults only; nothing of Mint's is replaced.
+
+Package: cinminai-daemon
+Version: 0.0.1+git20261004.055019
+Architecture: all
+Installed-Size: 436
+Maintainer: Cin-MinAI <https://github.com/Brickmii/Cin-MinAI>
+Depends: python3 (>= 3.12), python3-gi, gir1.2-glib-2.0, cinminai-llama (>= 0.0.1)
+Recommends: network-manager, pulseaudio-utils, cups-client, pciutils, ubuntu-drivers-common
+Priority: optional
+Section: misc
+Filename: pool/main/c/cinminai-daemon/cinminai-daemon_0.0.1+git20261004.055019_all.deb
+Size: 111700
+SHA256: d6d5efd2c43d6d687c58ab018f507e3e8ec9c82193372932cefbc65291371e78
+SHA1: f50126abd38084135cb0573eb5b68334798de295
+MD5sum: c50e0ea10e9576bf8e80f96ee0aa1eb8
+Description: Cin-MinAI assistant (the daemon)
+ The assistant built into Cin-MinAI: it answers on the session bus as
+ org.cinminai.Assistant1 for the sidebar, the panel applet and the other parts,
+ and runs the model on this computer with llama.cpp (cinminai-llama). It picks
+ the graphics card or the processor at each start, keeps graphics memory free
+ for the desktop, and says so when it has to run smaller. This version has the
+ guide's read-only tools: the built-in help, checking this computer, and opening
+ programs. It carries the diagnostics too (cinminai-diag): fault codes with plain
+ explanations and fixes, read from the kernel log, drivers, disks and packages.
+ Nothing is sent over the network.
+
+Package: cinminai-desktop
+Version: 0.0.1+git20261004.055019
+Architecture: all
+Installed-Size: 0
+Maintainer: Cin-MinAI <https://github.com/Brickmii/Cin-MinAI>
+Depends: cinminai-archive-keyring (>= 0.0.1), cinminai-branding (>= 0.0.1),
+ cinminai-daemon (>= 0.0.1), cinminai-sidebar (>= 0.0.1), cinminai-applet (>= 0.0.1),
+ cinminai-llama (>= 0.0.1), cinminai-libreoffice (>= 0.0.1),
+ cinminai-guide-model (>= 0.0.1), cinminai-aicui (>= 0.0.1)
+Priority: optional
+Section: metapackages
+Filename: pool/main/c/cinminai-desktop/cinminai-desktop_0.0.1+git20261004.055019_all.deb
+Size: 940
+SHA256: 8c591316a3bcf1867f82f02de2bf48717a2cf872caf5a251d768b406d946c2c6
+SHA1: 314f8cf214618b0ef201c97afd3776bc89a83a15
+MD5sum: 93bec3d505b21a9ed5ca801586181d95
+Description: Cin-MinAI desktop (metapackage)
+ Installs everything that makes a Linux Mint system Cin-MinAI. Its dependencies
+ grow with each milestone: the assistant, its model and its integrations follow.
+
+Package: cinminai-guide-model
+Version: 0.0.1+git20261004.055019
+Architecture: all
+Installed-Size: 3
+Maintainer: Cin-MinAI <https://github.com/Brickmii/Cin-MinAI>
+Depends: coreutils, curl
+Priority: optional
+Section: misc
+Filename: pool/main/c/cinminai-guide-model/cinminai-guide-model_0.0.1+git20261004.055019_all.deb
+Size: 2732
+SHA256: 89a2a0443e683927ce37fe1449c5966526a4eba6efe58b0177a4271c01102446
+SHA1: 6e3d17a48005fd6c2634c9b6af2e11f91170239d
+MD5sum: b0fc0c011dd560d28b4f24931c3534d9
+Description: The Cin-MinAI guide model (fetched and checked)
+ The small model built into Cin-MinAI (cycle 0: Qwen3.5-4B, fine-tuned, Q4_K_M,
+ 2.8 GB, Apache-2.0). The file is too big for a package: this one copies it from
+ the Cin-MinAI USB stick or DVD when present, or downloads it, and checks its
+ SHA-256 before use. Model card: https://github.com/Brickmii/Cin-MinAI
+ (training/guide/MODEL_CARD.md).
+
+Package: cinminai-libreoffice
+Version: 0.0.1+git20261004.055019
+Architecture: all
+Installed-Size: 28
+Maintainer: Cin-MinAI <https://github.com/Brickmii/Cin-MinAI>
+Depends: libreoffice-core, python3-uno, python3-gi, gir1.2-glib-2.0
+Recommends: cinminai-daemon (>= 0.0.1)
+Priority: optional
+Section: misc
+Filename: pool/main/c/cinminai-libreoffice/cinminai-libreoffice_0.0.1+git20261004.055019_all.deb
+Size: 9176
+SHA256: 1b1ec3af79ed1d2ad83a318e0cb40d8585bc669e151ec6b7c24d42d1f7f0a8e3
+SHA1: b7082f1742e8d4dc24f131c6a2aea25fd0edbe85
+MD5sum: ae45f66f8f8e565f089f393d947a9055
+Description: Cin-MinAI assistant in LibreOffice
+ An Assistant menu in Writer, Calc and Impress. Share a document with the
+ Cin-MinAI assistant from that menu, and it can read it and suggest edits:
+ every edit is shown first and only made when you click Apply, and one Ctrl+Z
+ undoes it. The assistant never saves, overwrites or closes your files, and it
+ sees only the documents you shared.
+
+Package: cinminai-llama
+Version: 0.0.1+git20261004.055019
+Architecture: amd64
+Installed-Size: 66835
+Maintainer: Cin-MinAI <https://github.com/Brickmii/Cin-MinAI>
+Depends: libc6 (>= 2.39), libstdc++6, libgcc-s1, libgomp1, libvulkan1
+Suggests: cinminai-llama-cuda
+Priority: optional
+Section: misc
+Filename: pool/main/c/cinminai-llama/cinminai-llama_0.0.1+git20261004.055019_amd64.deb
+Size: 12101048
+SHA256: 1c41f7382366aa08bbb4bc75461bf27880305fdb4601ec07be48c8e3be9e8c50
+SHA1: 18e61082a47021fdd16cae39185a3d0472b03445
+MD5sum: 973045205c978840bb6a2e0ee6eccdff
+Description: llama.cpp for the Cin-MinAI assistant (processor and Vulkan)
+ The pinned llama.cpp release (llama-server) that runs the assistant's model on
+ this computer. One build, with the backends as modules loaded at start: the
+ processor (a module per instruction-set level, the best one is picked for the
+ running CPU) and Vulkan (AMD and Intel graphics). NVIDIA's CUDA module is in
+ cinminai-llama-cuda. Nothing here downloads or sends anything; the assistant
+ starts it and talks to it over a private socket. How it was built:
+ /usr/share/doc/cinminai-llama/BUILDINFO.
+
+Package: cinminai-llama-cuda
+Version: 0.0.1+git20261004.055019
+Architecture: amd64
+Installed-Size: 498587
+Maintainer: Cin-MinAI <https://github.com/Brickmii/Cin-MinAI>
+Depends: cinminai-llama (= 0.0.1+git20261004.055019), libcudart12, libcublas12, libcublaslt12
+Priority: optional
+Section: misc
+Filename: pool/main/c/cinminai-llama-cuda/cinminai-llama-cuda_0.0.1+git20261004.055019_amd64.deb
+Size: 70028640
+SHA256: d30e90fc03057ffbc716d1a75c04db486ea907c1edbace6fe357cd6240a7ef02
+SHA1: 5236ae245af30b32b0b3560e444972943ce31f1c
+MD5sum: 4bfaf681ec3c91f501bbef2d9194183b
+Description: llama.cpp CUDA module for the Cin-MinAI assistant (NVIDIA)
+ Runs the assistant's model on an NVIDIA graphics card with the proprietary
+ driver (GTX 9xx and newer; built with CUDA 12.0 for Pascal, Turing, Ampere and
+ Ada, and PTX for Maxwell and newer cards). Without the NVIDIA driver it is
+ simply not used. The CUDA libraries come from Ubuntu (multiverse).
+
+Package: cinminai-sidebar
+Version: 0.0.1+git20261004.055019
+Architecture: all
+Installed-Size: 78
+Maintainer: Cin-MinAI <https://github.com/Brickmii/Cin-MinAI>
+Depends: python3 (>= 3.12), python3-gi, gir1.2-gtk-3.0, libx11-6, cinminai-daemon (>= 0.0.1)
+Priority: optional
+Section: misc
+Filename: pool/main/c/cinminai-sidebar/cinminai-sidebar_0.0.1+git20261004.055019_all.deb
+Size: 21120
+SHA256: 0b8fc7a11c053db6aebcf7e1fb295d0e789683cd7ca525ba6bf70c6352869d86
+SHA1: d9497cd8100b6dd3ce6abd9d4b4a4ee117152f97
+MD5sum: 39194e017c2eef3014ab85ea9a16c771
+Description: Cin-MinAI assistant sidebar
+ The window where you talk to the Cin-MinAI assistant: docked on the right edge
+ of the screen, it keeps its own space so other windows don't cover it. Answers
+ appear as they are written, and every check or lookup the assistant does is
+ shown in plain words. Open it from the menu, the panel, or with Super+A.
+
