@@ -1,19 +1,19 @@
 Origin: Cin-MinAI
 Label: Cin-MinAI
 Codename: noble
-Date: Sun, 04 Oct 2026 23:45:50 UTC
+Date: Mon, 05 Oct 2026 07:32:06 UTC
 Architectures: amd64
 Components: main
 Description: Cin-MinAI packages (based on Linux Mint 22.3)
 MD5Sum:
- 80539e26a59066636f7bab7a2cdafa20 14417 main/binary-amd64/Packages
- 6b8fc0ee5438c8c85fab3023601ac89a 5196 main/binary-amd64/Packages.gz
+ 11f36c6afbcc8c32d5e567fca483b6a1 14417 main/binary-amd64/Packages
+ 2922ccabb9c69f9a26988d41308863c1 5188 main/binary-amd64/Packages.gz
  49d71cd6e76dd3e08bedfbb427a11baf 130 main/binary-amd64/Release
 SHA1:
- 637838bcbb9b4fa879c7f7bc2778022d724689f0 14417 main/binary-amd64/Packages
- 5af2596a388bbbda3ec6b2f75604ca7fd9febe03 5196 main/binary-amd64/Packages.gz
+ 217352cbf3fe5632254a48ca8a5429e665099316 14417 main/binary-amd64/Packages
+ 41942d1eaa6ff5d9ed56f5204e5375a4ddd3a2f0 5188 main/binary-amd64/Packages.gz
  b83c8f54a05d097d1ac8395a29f2a0956174bd29 130 main/binary-amd64/Release
 SHA256:
- 4d2afa1bd267de58032d3035bcb61fd424373ecd05b7496ba20b529f7de24b2d 14417 main/binary-amd64/Packages
- 1bb7be501101cf472cb06f2724c6e79cdfb5f8ece1e55eff78343ea669f20dd5 5196 main/binary-amd64/Packages.gz
+ 7827c30107556d118f3cb232fd5b4604ff44deb7f84f2cfb07d41a5858d6db64 14417 main/binary-amd64/Packages
+ 12980852949077b85097d68c04881096b919a1b9e29128701580a5c1e0cdfe59 5188 main/binary-amd64/Packages.gz
  2d39b4789590b989e65d67a4122ee54381d16c5cba7e6a21f27dcdf383e1ef5e 130 main/binary-amd64/Release

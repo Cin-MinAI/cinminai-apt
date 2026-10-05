@@ -12,4 +12,4 @@ Cin-MinAI archive key, which ships in the `cinminai-archive-keyring` package:
 The key lives only on an offline stick, and every release is signed by hand (PLAN D72). The public key is
 also here: [`cinminai-archive-keyring.asc`](cinminai-archive-keyring.asc).
 
-Release: **0.0.1** (the first public alpha), with update 3 (2026-10-04: it sees — pictures, video files, and the YouTube video open in Firefox) — suite `noble`, component `main`, amd64.
+Release: **0.0.1** (the first public alpha), with update 4 (2026-10-05: long videos summarized part by part, finished step lists, plain error messages) — suite `noble`, component `main`, amd64.
