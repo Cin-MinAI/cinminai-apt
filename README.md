@@ -12,4 +12,4 @@ Cin-MinAI archive key, which ships in the `cinminai-archive-keyring` package:
 The key lives only on an offline stick, and every release is signed by hand (PLAN D72). The public key is
 also here: [`cinminai-archive-keyring.asc`](cinminai-archive-keyring.asc).
 
-Release: **0.0.1** (the first public alpha), with update 4 (2026-10-05: long videos summarized part by part, finished step lists, plain error messages) — suite `noble`, component `main`, amd64.
+Release: **0.0.1** (the first public alpha), with update 5 (2026-10-07: the news as who says what, news watches, find a video and summarize it, write an email, administrator actions with a password every time, Bing as the search backup; [release note](https://github.com/Cin-MinAI/Cin-MinAI/blob/main/docs/release-notes/update-5.md)) — suite `noble`, component `main`, amd64.

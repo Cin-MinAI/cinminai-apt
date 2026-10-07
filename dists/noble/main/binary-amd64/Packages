@@ -1,5 +1,23 @@
+Package: cinminai-admin
+Version: 0.0.1+git20261007.182846
+Architecture: all
+Installed-Size: 33
+Maintainer: Cin-MinAI <https://github.com/Cin-MinAI/Cin-MinAI>
+Depends: python3 (>= 3.12), python3-gi, dbus, polkitd, systemd, apt, kmod, util-linux, e2fsprogs, dosfstools
+Priority: optional
+Section: admin
+Filename: pool/main/c/cinminai-admin/cinminai-admin_0.0.1+git20261007.182846_all.deb
+Size: 11560
+SHA256: 6137bd25a82691fecc0ef6cc8fdb8a1f7ec3389c52ccc41cfe6aab8ea04ff554
+SHA1: 31ccfb7a2d76c1d8e5b68f543d3dfacea1535d88
+MD5sum: 65d418f9d5d8cc0d03e6581706698ffa
+Description: Privileged action mechanism for Cin-MinAI
+ A root-owned, D-Bus-activated mechanism with a small typed vocabulary.
+ Every request is validated before a fresh polkit administrator check and is
+ written to a local hash-chained audit log. It provides no privileged shell.
+
 Package: cinminai-aicui
-Version: 0.0.1+git20261005.072730
+Version: 0.0.1+git20261007.182846
 Architecture: all
 Installed-Size: 89
 Maintainer: Cin-MinAI <https://github.com/Cin-MinAI/Cin-MinAI>
@@ -7,11 +25,11 @@ Depends: python3 (>= 3.12), python3-gi, gir1.2-gtk-3.0, gir1.2-vte-2.91, git, bu
  cinminai-daemon (>= 0.0.1)
 Priority: optional
 Section: devel
-Filename: pool/main/c/cinminai-aicui/cinminai-aicui_0.0.1+git20261005.072730_all.deb
+Filename: pool/main/c/cinminai-aicui/cinminai-aicui_0.0.1+git20261007.182846_all.deb
 Size: 27760
-SHA256: d17f14b80358c660902e95d6c7dd3c63b699e222190e96f1c860904fe1932ee6
-SHA1: 8b3f951936188310617852bfe23b9ca64a10e7fa
-MD5sum: 068b759e1ca8e6c7bfdbb42a42936d44
+SHA256: b774220b0f04ea4c1ea2ba9342d9c7aff483af04da4857f5a4d14fa774d8d20d
+SHA1: 7fef8198d52496e48e69b36d231c6380485a7738
+MD5sum: d2d8a816845d2481482d2fc189d8c0b8
 Description: AICUI, the Cin-MinAI coding workspace
  A simple workspace for coding with AI: the chat history, the project's files,
  the session goals and a real terminal where the coding agent works and asks
@@ -20,18 +38,18 @@ Description: AICUI, the Cin-MinAI coding workspace
  connected too. Open it from the Programming menu or the assistant's sidebar.
 
 Package: cinminai-applet
-Version: 0.0.1+git20261005.072730
+Version: 0.0.1+git20261007.182846
 Architecture: all
-Installed-Size: 10
+Installed-Size: 11
 Maintainer: Cin-MinAI <https://github.com/Cin-MinAI/Cin-MinAI>
 Depends: cinnamon, python3, cinminai-sidebar (>= 0.0.1)
 Priority: optional
 Section: misc
-Filename: pool/main/c/cinminai-applet/cinminai-applet_0.0.1+git20261005.072730_all.deb
-Size: 4936
-SHA256: a1114c2652b5bc83e32a5d3a1d470cc8b27e9afdadddce837574c042b567e97c
-SHA1: 3fa6c6be2747030ddb21176afc41caffe2e1a949
-MD5sum: 4023d024fcaca53a57359a8cd83c57c8
+Filename: pool/main/c/cinminai-applet/cinminai-applet_0.0.1+git20261007.182846_all.deb
+Size: 5228
+SHA256: 905372f519744b44091295113699008ffac1fbad0e56acfdd34a714b56c743b8
+SHA1: 4395bb508baa31a562816572ca65efc5fdf6022f
+MD5sum: 7e6e0271a0825d8c34d38a280a736833
 Description: Cin-MinAI assistant: panel icon and Super+A
  The assistant's icon in the panel: it shows whether the assistant is ready,
  answering or resting, and a click opens it. At first login it is added to the
@@ -39,53 +57,53 @@ Description: Cin-MinAI assistant: panel icon and Super+A
  change the key, it stays the way you left it.
 
 Package: cinminai-archive-keyring
-Version: 0.0.1+git20261005.072730
+Version: 0.0.1+git20261007.182846
 Architecture: all
 Installed-Size: 1
 Maintainer: Cin-MinAI <https://github.com/Cin-MinAI/Cin-MinAI>
 Priority: optional
 Section: misc
-Filename: pool/main/c/cinminai-archive-keyring/cinminai-archive-keyring_0.0.1+git20261005.072730_all.deb
+Filename: pool/main/c/cinminai-archive-keyring/cinminai-archive-keyring_0.0.1+git20261007.182846_all.deb
 Size: 1568
-SHA256: 77261a852f90adf747768561160f406dc3cc481033d90f82f12a110363ee5eb9
-SHA1: f0a26a8426b66ea66be37fa0803057fe97455761
-MD5sum: 02e192dd44ebfaf68f4ccb5811e84019
+SHA256: cea8c56f4a5e2eb990d724ec5cf9776930d4235cd3262f612646adad5b78077a
+SHA1: 35f4a08dab9f126f0a041a397d42d251cc237649
+MD5sum: 307d1417bdf4cfff0627b661a0631874
 Description: Cin-MinAI archive key and apt source
  The public key that signs the Cin-MinAI package repository, and the apt source
  that lets this computer receive Cin-MinAI updates through Update Manager.
 
 Package: cinminai-branding
-Version: 0.0.1+git20261005.072730
+Version: 0.0.1+git20261007.182846
 Architecture: all
 Installed-Size: 5168
 Maintainer: Cin-MinAI <https://github.com/Cin-MinAI/Cin-MinAI>
 Depends: plymouth, python3
 Priority: optional
 Section: misc
-Filename: pool/main/c/cinminai-branding/cinminai-branding_0.0.1+git20261005.072730_all.deb
+Filename: pool/main/c/cinminai-branding/cinminai-branding_0.0.1+git20261007.182846_all.deb
 Size: 4099512
-SHA256: 028e74da7973e683db73181a2f8c0cb539c36a3f668e783a7a1255b7569a2711
-SHA1: da0f3f39e428cd50cb2c45011f960874b02ebd69
-MD5sum: 572b107286b15b640198bbfc8a6aae6e
+SHA256: 19dd9c80ff2e4ad1d03f1e0f314d0100e307bc29d1e773faa39fedbeed4034cd
+SHA1: 25e7969b5c52454a21ff285d24f56efa4fdaa289
+MD5sum: 07afffc6706c644a2c4e64dcea3797ff
 Description: Cin-MinAI look: wallpapers, boot splash and theme defaults
  Identifies this system as Cin-MinAI, based on Linux Mint: the wallpapers (data-stream
  is the default), the boot splash, and Mint's own dark theme with the Aqua accent as
  defaults. Adds files and defaults only; nothing of Mint's is replaced.
 
 Package: cinminai-daemon
-Version: 0.0.1+git20261005.072730
+Version: 0.0.1+git20261007.182846
 Architecture: all
-Installed-Size: 534
+Installed-Size: 704
 Maintainer: Cin-MinAI <https://github.com/Cin-MinAI/Cin-MinAI>
 Depends: python3 (>= 3.12), python3-gi, gir1.2-glib-2.0, cinminai-llama (>= 0.0.1)
 Recommends: network-manager, pulseaudio-utils, cups-client, pciutils, ubuntu-drivers-common
 Priority: optional
 Section: misc
-Filename: pool/main/c/cinminai-daemon/cinminai-daemon_0.0.1+git20261005.072730_all.deb
-Size: 138912
-SHA256: 74a3d16c95d5275d4c55f48cc1b7037cb6b5b0d784d47429d84b9768d41b8694
-SHA1: a88ba994806bc5761a150a61a6ec079e0d374390
-MD5sum: 244642c0174f8dab1723664fa0c7e3f4
+Filename: pool/main/c/cinminai-daemon/cinminai-daemon_0.0.1+git20261007.182846_all.deb
+Size: 182040
+SHA256: 8281ba7f87d198556d326c87d58052a942387839fc5de28d5ab5838c33b225d9
+SHA1: 95b6fe08db7ed0bca73f6725528a7434cec639db
+MD5sum: aa707917ea65b660087f4be3c576bbfb
 Description: Cin-MinAI assistant (the daemon)
  The assistant built into Cin-MinAI: it answers on the session bus as
  org.cinminai.Assistant1 for the sidebar, the panel applet and the other parts,
@@ -98,7 +116,7 @@ Description: Cin-MinAI assistant (the daemon)
  Nothing is sent over the network.
 
 Package: cinminai-desktop
-Version: 0.0.1+git20261005.072730
+Version: 0.0.1+git20261007.182846
 Architecture: all
 Installed-Size: 0
 Maintainer: Cin-MinAI <https://github.com/Cin-MinAI/Cin-MinAI>
@@ -107,31 +125,31 @@ Depends: cinminai-archive-keyring (>= 0.0.1), cinminai-branding (>= 0.0.1),
  cinminai-llama (>= 0.0.1), cinminai-libreoffice (>= 0.0.1),
  cinminai-guide-model (>= 0.0.1), cinminai-aicui (>= 0.0.1), cinminai-shell (>= 0.0.1),
  cinminai-sandbox (>= 0.0.1), cinminai-whisper (>= 0.0.1),
- cinminai-firefox (>= 0.0.1)
+ cinminai-firefox (>= 0.0.1), cinminai-admin (>= 0.0.1)
 Priority: optional
 Section: metapackages
-Filename: pool/main/c/cinminai-desktop/cinminai-desktop_0.0.1+git20261005.072730_all.deb
-Size: 964
-SHA256: b8378bf6c887602aa4e71069918c309e03610953d3e8f763912d7baf491e913b
-SHA1: e71b4a95f98b68b32318f18e516454215ce26ec3
-MD5sum: 05f588fb62a3e041c740605480f081af
+Filename: pool/main/c/cinminai-desktop/cinminai-desktop_0.0.1+git20261007.182846_all.deb
+Size: 968
+SHA256: e60ac334e565a11b23db46721c546b0031e99e81665b60e6dd654da9e3cb7820
+SHA1: c0d6b16982dde79794d3b82185f77f04ecd17ae6
+MD5sum: 18291957ce648be4f3e8062483baaa3a
 Description: Cin-MinAI desktop (metapackage)
  Installs everything that makes a Linux Mint system Cin-MinAI. Its dependencies
  grow with each milestone: the assistant, its model and its integrations follow.
 
 Package: cinminai-firefox
-Version: 0.0.1+git20261005.072730
+Version: 0.0.1+git20261007.182846
 Architecture: all
 Installed-Size: 11
 Maintainer: Cin-MinAI <https://github.com/Cin-MinAI/Cin-MinAI>
 Depends: firefox, cinminai-daemon (>= 0.0.1)
 Priority: optional
 Section: web
-Filename: pool/main/c/cinminai-firefox/cinminai-firefox_0.0.1+git20261005.072730_all.deb
+Filename: pool/main/c/cinminai-firefox/cinminai-firefox_0.0.1+git20261007.182846_all.deb
 Size: 11116
-SHA256: 87765bff8e0f59cbae9ce251830f3016c47210ab1702d51f9a04881d41ac02fe
-SHA1: b17562a49a40477e2308b4cfb7126fc33ca05deb
-MD5sum: f48c580ed3e0eeb15b2e63946c348f2c
+SHA256: 05a244a9d38c56c17bcf3cf7c544eaea25d7e04652ca0a7ba4f17bc509be89f8
+SHA1: b5bdae2c3b02e8b48107437659caedff13d9d829
+MD5sum: 06e53f3d0f1a7be1c139aaa7a4e46688
 Description: Cin-MinAI in Firefox (summarize the YouTube video you have open)
  Installs the Cin-MinAI Firefox extension, signed by Mozilla, through Firefox's
  policy, so it is there without any step. When you ask the assistant about
@@ -141,18 +159,18 @@ Description: Cin-MinAI in Firefox (summarize the YouTube video you have open)
  on this computer writes the summary.
 
 Package: cinminai-guide-model
-Version: 0.0.1+git20261005.072730
+Version: 0.0.1+git20261007.182846
 Architecture: all
 Installed-Size: 3
 Maintainer: Cin-MinAI <https://github.com/Cin-MinAI/Cin-MinAI>
 Depends: coreutils, curl
 Priority: optional
 Section: misc
-Filename: pool/main/c/cinminai-guide-model/cinminai-guide-model_0.0.1+git20261005.072730_all.deb
+Filename: pool/main/c/cinminai-guide-model/cinminai-guide-model_0.0.1+git20261007.182846_all.deb
 Size: 2748
-SHA256: fe47a3da770e6ab7256d5a0e0ae8a9f4b392d7530a03e6c7656e00a162f621c2
-SHA1: 5f4fe1b840bfee13b2a917f468846cd1862f8fc2
-MD5sum: e092bf924008584264098e6be353fdeb
+SHA256: 6620ce80d66cfaeacce5fce5da24a1f32f4987166db85458a403b0cd16c8a6f0
+SHA1: b4d8e9854a21b20bb2b4f235a2489dcbda3089fa
+MD5sum: cf08b5d4149bc39c2d862e55ba642c67
 Description: The Cin-MinAI guide model (fetched and checked)
  The small model built into Cin-MinAI (cycle 0: Qwen3.5-4B, fine-tuned, Q4_K_M,
  2.8 GB, Apache-2.0). The file is too big for a package: this one copies it from
@@ -161,7 +179,7 @@ Description: The Cin-MinAI guide model (fetched and checked)
  (training/guide/MODEL_CARD.md).
 
 Package: cinminai-libreoffice
-Version: 0.0.1+git20261005.072730
+Version: 0.0.1+git20261007.182846
 Architecture: all
 Installed-Size: 28
 Maintainer: Cin-MinAI <https://github.com/Cin-MinAI/Cin-MinAI>
@@ -169,11 +187,11 @@ Depends: libreoffice-core, python3-uno, python3-gi, gir1.2-glib-2.0
 Recommends: cinminai-daemon (>= 0.0.1)
 Priority: optional
 Section: misc
-Filename: pool/main/c/cinminai-libreoffice/cinminai-libreoffice_0.0.1+git20261005.072730_all.deb
+Filename: pool/main/c/cinminai-libreoffice/cinminai-libreoffice_0.0.1+git20261007.182846_all.deb
 Size: 9168
-SHA256: 2a2f20fb4b06c57d632f52ecca6aba29cdb4116ae805b0b5d9e54240bd92d1bc
-SHA1: 80d0176f6079ed7ba338501481bb5bb8097ef06e
-MD5sum: ed77112e9977472158d960e270118b42
+SHA256: 1e000c6d6e16762267b2e295d1ff37c7585a8a97e4ec3b5ffb03c5d13fbb6db2
+SHA1: aa95550bf125cc961fc6f15fb15c7e72e9b97ebf
+MD5sum: f3caa95718c614d39a696dbfb872ac43
 Description: Cin-MinAI assistant in LibreOffice
  An Assistant menu in Writer, Calc and Impress. Share a document with the
  Cin-MinAI assistant from that menu, and it can read it and suggest edits:
@@ -182,7 +200,7 @@ Description: Cin-MinAI assistant in LibreOffice
  sees only the documents you shared.
 
 Package: cinminai-llama
-Version: 0.0.1+git20261005.072730
+Version: 0.0.1+git20261007.182846
 Architecture: amd64
 Installed-Size: 66835
 Maintainer: Cin-MinAI <https://github.com/Cin-MinAI/Cin-MinAI>
@@ -190,11 +208,11 @@ Depends: libc6 (>= 2.39), libstdc++6, libgcc-s1, libgomp1, libvulkan1
 Suggests: cinminai-llama-cuda
 Priority: optional
 Section: misc
-Filename: pool/main/c/cinminai-llama/cinminai-llama_0.0.1+git20261005.072730_amd64.deb
-Size: 12097812
-SHA256: d61aa2f1d74480fbcd1bf8a9ec8ece086a9e03f60c2db41348fef69e749d55cb
-SHA1: cb0efdf11a1328f4654bc8ecf6d7366c049fb5a5
-MD5sum: 09e2d16d1f23842562fe1ad291ff568d
+Filename: pool/main/c/cinminai-llama/cinminai-llama_0.0.1+git20261007.182846_amd64.deb
+Size: 12099032
+SHA256: 8522a54a8a6fc14f192088d88634187a732f9385b49f5b0a7e74e724375d6848
+SHA1: a92976e27f13f670bba40461c2e7a46f93a4f140
+MD5sum: a834eee90e76324d1fb35a7ae4810cec
 Description: llama.cpp for the Cin-MinAI assistant (processor and Vulkan)
  The pinned llama.cpp release (llama-server) that runs the assistant's model on
  this computer. One build, with the backends as modules loaded at start: the
@@ -205,18 +223,18 @@ Description: llama.cpp for the Cin-MinAI assistant (processor and Vulkan)
  /usr/share/doc/cinminai-llama/BUILDINFO.
 
 Package: cinminai-llama-cuda
-Version: 0.0.1+git20261005.072730
+Version: 0.0.1+git20261007.182846
 Architecture: amd64
 Installed-Size: 498587
 Maintainer: Cin-MinAI <https://github.com/Cin-MinAI/Cin-MinAI>
-Depends: cinminai-llama (= 0.0.1+git20261005.072730), libcudart12, libcublas12, libcublaslt12
+Depends: cinminai-llama (= 0.0.1+git20261007.182846), libcudart12, libcublas12, libcublaslt12
 Priority: optional
 Section: misc
-Filename: pool/main/c/cinminai-llama-cuda/cinminai-llama-cuda_0.0.1+git20261005.072730_amd64.deb
-Size: 70030336
-SHA256: 421797d361a8ef22c5e7a1e9d7d95de9930c3a493910675a70a8c55554f435c9
-SHA1: 5dffdf3c1df4036debc5f9dd62f3e9d1cf83a3f8
-MD5sum: 85a51889dc55cf7005dea74226392e4d
+Filename: pool/main/c/cinminai-llama-cuda/cinminai-llama-cuda_0.0.1+git20261007.182846_amd64.deb
+Size: 70029960
+SHA256: 2ec8be5527ff9d4f760c3be4b8ced6a47ec05e2c59638bbe3fa82fe94bfcf171
+SHA1: 13a968f1beed794e3304b7279ce76b16d04ad389
+MD5sum: b7c72a96d7f82122ff54181c5aae62b2
 Description: llama.cpp CUDA module for the Cin-MinAI assistant (NVIDIA)
  Runs the assistant's model on an NVIDIA graphics card with the proprietary
  driver (GTX 9xx and newer; built with CUDA 12.0 for Pascal, Turing, Ampere and
@@ -224,18 +242,18 @@ Description: llama.cpp CUDA module for the Cin-MinAI assistant (NVIDIA)
  simply not used. The CUDA libraries come from Ubuntu (multiverse).
 
 Package: cinminai-sandbox
-Version: 0.0.1+git20261005.072730
+Version: 0.0.1+git20261007.182846
 Architecture: all
 Installed-Size: 9
 Maintainer: Cin-MinAI <https://github.com/Cin-MinAI/Cin-MinAI>
 Depends: python3 (>= 3.12), bubblewrap, passt
 Priority: optional
 Section: misc
-Filename: pool/main/c/cinminai-sandbox/cinminai-sandbox_0.0.1+git20261005.072730_all.deb
-Size: 4652
-SHA256: 75c2bf68335561af9aa8a7864d02391b3fc829536847ae9d7d33ac8027fb2d92
-SHA1: 96cc53ac32d506950cc44e9627d7d37f050c41d9
-MD5sum: 9011bca2dba2856de1be953101f0c83a
+Filename: pool/main/c/cinminai-sandbox/cinminai-sandbox_0.0.1+git20261007.182846_all.deb
+Size: 4648
+SHA256: dc74200a27221d636e5cce3dcb6b0fd97587542790581151566c9ccd84114b0b
+SHA1: 1961fd22b7eee87be31bf2e0d6519029777a5aef
+MD5sum: a5cebc42429f29f82bf8ec20fd05950d
 Description: Cin-MinAI sandbox for trying commands safely
  Lets the Cin-MinAI assistant try a command it suggested before you run it:
  on a throwaway copy of your folder, without root, without access to the rest
@@ -243,18 +261,18 @@ Description: Cin-MinAI sandbox for trying commands safely
  Your files aren't touched; you see what would happen, then decide.
 
 Package: cinminai-shell
-Version: 0.0.1+git20261005.072730
+Version: 0.0.1+git20261007.182846
 Architecture: all
 Installed-Size: 40
 Maintainer: Cin-MinAI <https://github.com/Cin-MinAI/Cin-MinAI>
 Depends: python3 (>= 3.12), python3-pyte, bash, cinminai-sandbox (>= 0.0.1)
 Priority: optional
 Section: misc
-Filename: pool/main/c/cinminai-shell/cinminai-shell_0.0.1+git20261005.072730_all.deb
-Size: 13340
-SHA256: e491f0e2e89c69a0fc411c63c40ae550ff3959ed51131dcf0be252922fa375a6
-SHA1: 93459ee35eaa7e2cc78c1e6aa6dea92e73e66353
-MD5sum: f70693a54e2321f21c7476303ca85fd9
+Filename: pool/main/c/cinminai-shell/cinminai-shell_0.0.1+git20261007.182846_all.deb
+Size: 13348
+SHA256: 020995a80e1f814e9ef5cfea8febbab7f519048984297aaa32174d67a4915def
+SHA1: 66a4fb89ecc477c0b933869259f319ad65116126
+MD5sum: b111799b7d749c3393f6ef25cad04ae0
 Description: Cin-MinAI terminal sharing
  Lets the Cin-MinAI assistant see the terminals you choose to share: each
  command, its output and whether it worked, so it can help when something
@@ -263,18 +281,18 @@ Description: Cin-MinAI terminal sharing
  prompts, and nothing leaves the computer.
 
 Package: cinminai-sidebar
-Version: 0.0.1+git20261005.072730
+Version: 0.0.1+git20261007.182846
 Architecture: all
-Installed-Size: 109
+Installed-Size: 147
 Maintainer: Cin-MinAI <https://github.com/Cin-MinAI/Cin-MinAI>
 Depends: python3 (>= 3.12), python3-gi, gir1.2-gtk-3.0, libx11-6, cinminai-daemon (>= 0.0.1)
 Priority: optional
 Section: misc
-Filename: pool/main/c/cinminai-sidebar/cinminai-sidebar_0.0.1+git20261005.072730_all.deb
-Size: 28688
-SHA256: f75a2e8ff371a02657c4cdc54067c5cd4229e9cb7a86b2b269e54be73ff6e309
-SHA1: e2dbf5dae29f1796eb43a65bc86e30acb4b924bb
-MD5sum: d81be24d343771e706af8e096cc8aaac
+Filename: pool/main/c/cinminai-sidebar/cinminai-sidebar_0.0.1+git20261007.182846_all.deb
+Size: 37508
+SHA256: fdfdcf8393f626890d2f9fccfeca99bff77e534de6588cb2147870fdf4ab863e
+SHA1: 6d88fa6dc2745e193195f21d78990202cd400021
+MD5sum: a1186ffe88d4bdb9aaa3ac6066a539c9
 Description: Cin-MinAI assistant sidebar
  The window where you talk to the Cin-MinAI assistant: docked on the right edge
  of the screen, it keeps its own space so other windows don't cover it. Answers
@@ -282,18 +300,18 @@ Description: Cin-MinAI assistant sidebar
  shown in plain words. Open it from the menu, the panel, or with Super+A.
 
 Package: cinminai-whisper
-Version: 0.0.1+git20261005.072730
+Version: 0.0.1+git20261007.182846
 Architecture: amd64
 Installed-Size: 17100
 Maintainer: Cin-MinAI <https://github.com/Cin-MinAI/Cin-MinAI>
 Depends: libc6 (>= 2.39), libstdc++6, libgcc-s1, libgomp1, ffmpeg
 Priority: optional
 Section: misc
-Filename: pool/main/c/cinminai-whisper/cinminai-whisper_0.0.1+git20261005.072730_amd64.deb
-Size: 2196492
-SHA256: 50468fad58fa69c34c42659883424a8fa2cc037b226015d44fb056b603dcd054
-SHA1: bff2e8f11be09614df08d9ada1317b4de4ac9f4f
-MD5sum: e9c8b5dd48b2548665aa9df60b8658e4
+Filename: pool/main/c/cinminai-whisper/cinminai-whisper_0.0.1+git20261007.182846_amd64.deb
+Size: 2195344
+SHA256: 79283d4f5a7c3c64a2d8664ffa1f35941c1793c76965e08c6db58ddb15d59080
+SHA1: 8df0b3dfbacba82e203cd8304f8f3e411f55809c
+MD5sum: 54f29232ebc62fc22ab56296dc4a6c3d
 Description: whisper.cpp for the Cin-MinAI assistant (speech in videos)
  The pinned whisper.cpp release (whisper-cli) that turns the speech in a video
  into text, so the assistant can summarize the video from what is said as well
