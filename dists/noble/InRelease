@@ -4,26 +4,26 @@ Hash: SHA512
 Origin: Cin-MinAI
 Label: Cin-MinAI
 Codename: noble
-Date: Wed, 14 Oct 2026 09:03:33 UTC
+Date: Wed, 21 Oct 2026 11:48:20 UTC
 Architectures: amd64
 Components: main
 Description: Cin-MinAI packages (based on Linux Mint 22.3)
 MD5Sum:
- 2f964c5c9d521324248b81634dc11dc8 17542 main/binary-amd64/Packages
- fc059dec45dbf44aa705be341bf1b337 6294 main/binary-amd64/Packages.gz
+ 278f7d5dc2451d78d425a6a9de7488a1 17543 main/binary-amd64/Packages
+ 4c8a2e8e716165608f0ac21c051b67f1 6300 main/binary-amd64/Packages.gz
  49d71cd6e76dd3e08bedfbb427a11baf 130 main/binary-amd64/Release
 SHA1:
- 9095e2d7b6627e8c1189211f7e425b7ab238110c 17542 main/binary-amd64/Packages
- f7faabee5c1486ff492ddde2cff0df5cd80e9cc7 6294 main/binary-amd64/Packages.gz
+ a9d6b889e292e530ff17f6ccd990e68a38d73889 17543 main/binary-amd64/Packages
+ e4a9ba029f8f0ab0fa6e1e5f449b09e5aa956317 6300 main/binary-amd64/Packages.gz
  b83c8f54a05d097d1ac8395a29f2a0956174bd29 130 main/binary-amd64/Release
 SHA256:
- 23e4d7fdde1cdc37d8b5993b3bd67b4b01e061c4643771646f70515a5bbade7d 17542 main/binary-amd64/Packages
- f28ba5d3c82c6ca95604b25c68fbde65eed60b2646522530fab52ecedd175ab8 6294 main/binary-amd64/Packages.gz
+ 3126c30305e3d3eb2cae0a2145f57c2170e1a44ee8314ebd55a439ad2c1276da 17543 main/binary-amd64/Packages
+ f4f3805c75d10f4af285c39cc57aa193b6af21414472cefc159312f9cf187d85 6300 main/binary-amd64/Packages.gz
  2d39b4789590b989e65d67a4122ee54381d16c5cba7e6a21f27dcdf383e1ef5e 130 main/binary-amd64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iHUEARYKAB0WIQS+DBYZyOckGiz2r9oX1uCBMwDHVwUCas9FZQAKCRAX1uCBMwDH
-V7DTAQCoZN8v6Cw2zurSkyeYyuvgqY6xmHhTnYOpjgWl8/FENgEA0mLKICBasC5k
-utCl/n0n25N2soR8HhoqNRpsqpLPMQU=
-=wtnv
+iHUEARYKAB0WIQS+DBYZyOckGiz2r9oX1uCBMwDHVwUCatimhQAKCRAX1uCBMwDH
+V6toAP9m+Vyb7lDG8U2/vmYZWfcj+cM63iI3djMVhDrch2lD5gEAh/CzE81xAPC2
+O3CC0C0+VqwV7iBSvq4+xHDvlGzdGQE=
+=gpZh
 -----END PGP SIGNATURE-----
